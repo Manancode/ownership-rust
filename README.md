@@ -1,0 +1,1 @@
+By returning the string along with its length, you maintain ownership of s in main. This allows you to use s later in the println! statement without any errors. In short, your solution effectively sidesteps the ownership issue by explicitly returning the ownership back to the calling scope.
